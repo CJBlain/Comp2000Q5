@@ -3,28 +3,39 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@android:color/darker_gray">
+
 
 
     <EditText
         android:id="@+id/editTextUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Username"
-        android:inputType="text"/>
+        android:hint="Enter Username"
+        android:inputType="text"
+        android:padding="15dp"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center" />
 
     <EditText
         android:id="@+id/editTextPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Password"
-        android:inputType="textPassword"/>
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center" />
 
     <Button
         android:id="@+id/buttonLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login"
-        android:layout_marginTop="16dp"/>
+        android:text="Login Here"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="50dp"/>
+
 
 </LinearLayout>
