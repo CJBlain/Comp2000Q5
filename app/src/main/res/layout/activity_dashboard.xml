@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center"
-        android:layout_marginBottom="185dp">
+        android:layout_marginBottom="18dp">
 
         <!-- View Details Button -->
         <Button
@@ -34,3 +34,22 @@
             android:layout_marginStart="8dp"
             android:background="@android:color/holo_green_light" />
     </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonManageHoliday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Holidays And Booking"
+        android:layout_marginBottom="168dp"
+        android:padding="20dp" />
+
+    <!-- Notification Button -->
+    <Button
+        android:id="@+id/buttonNotification"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/circular_button"
+        android:text="Notifications"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white" />
+</LinearLayout>
