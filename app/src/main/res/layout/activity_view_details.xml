@@ -8,9 +8,9 @@
         android:layout_height="wrap_content"
         android:columnCount="2"
         android:rowCount="7"
-        android:padding="3dp"
+        android:padding="30dp"
         android:alignmentMode="alignMargins"
-        android:layout_gravity="center">
+        android:layout_gravity="top|center_horizontal">
 
         <!-- Left Column Buttons -->
         <Button
