@@ -46,10 +46,10 @@
     <!-- Notification Button -->
     <Button
         android:id="@+id/buttonNotification"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:background="@drawable/circular_button"
-        android:text="Notifications"
+        android:text="0 New Notifications"
         android:layout_gravity="center"
         android:textColor="@android:color/white" />
 </LinearLayout>
