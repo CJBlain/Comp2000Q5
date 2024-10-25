@@ -7,26 +7,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="16dp">
+        android:padding="10dp">
 
         <!-- GridLayout with Buttons -->
         <GridLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:columnCount="1"
-            android:rowCount="7"
-            android:padding="30dp"
+            android:rowCount="4"
+            android:padding="70dp"
             android:alignmentMode="alignMargins"
             android:layout_gravity="top|center_horizontal">
-
-            <!-- Left Column Buttons -->
-            <Button
-                android:id="@+id/button1"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:text="NAME"
-                android:textSize="11sp"/>
 
             <!-- Right Column Buttons -->
             <Button
@@ -35,16 +26,10 @@
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
                 android:text="JOHN SMITH"
-                android:textSize="11sp"/>
+                android:textSize="11sp"
+                android:layout_marginBottom="100dp"/>
 
-            <!-- Row 2 -->
-            <Button
-                android:id="@+id/button2"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:text="EMAIL"
-                android:textSize="10sp"/>
+
 
             <Button
                 android:id="@+id/button9"
@@ -54,90 +39,9 @@
                 android:text="JSMTH@GMAIL.COM"
                 android:textSize="11sp"/>
 
-            <!-- Row 3 -->
-            <Button
-                android:id="@+id/button3"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:text="JOB ROLE"
-                android:textSize="11sp"/>
 
-            <Button
-                android:id="@+id/button10"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:text="CEO"
-                android:textSize="11sp"/>
 
-            <!-- Row 4 -->
-            <Button
-                android:id="@+id/button4"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:text="SALARY"
-                android:textSize="11sp"/>
 
-            <Button
-                android:id="@+id/button11"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:text="£72,000"
-                android:textSize="11sp"/>
-
-            <!-- Row 5 -->
-            <Button
-                android:id="@+id/button5"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:text="START DATE"
-                android:textSize="11sp"/>
-
-            <Button
-                android:id="@+id/button12"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:text="1/01/24"
-                android:textSize="11sp"/>
-
-            <!-- Row 6 -->
-            <Button
-                android:id="@+id/button6"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:text="DAYS HERE"
-                android:textSize="11sp"/>
-
-            <Button
-                android:id="@+id/button13"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:text="234"
-                android:textSize="11sp"/>
-
-            <!-- Row 7 -->
-            <Button
-                android:id="@+id/button7"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:text="NEXT HOLIDAY"
-                android:textSize="11sp"/>
-
-            <Button
-                android:id="@+id/button14"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:text="25/12/24"
-                android:textSize="11sp"/>
         </GridLayout>
 
         <!-- Back Arrow and Text at the Bottom -->
@@ -146,13 +50,13 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:gravity="center"
-            android:padding="16dp"
-            android:layout_marginTop="32dp">
+            android:padding="5dp"
+            android:layout_marginTop="120dp">
 
             <ImageView
                 android:id="@+id/backArrow"
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
                 android:src="@android:drawable/ic_media_previous"
                 android:contentDescription="Back Arrow" />
 
@@ -161,7 +65,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Back"
-                android:textSize="13sp"
+                android:textSize="17sp"
                 android:gravity="center" />
         </LinearLayout>
 
