@@ -65,6 +65,14 @@
 
         <!-- Cancel Holiday Button -->
         <Button
+            android:id="@+id/bookHolidayButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book Holiday"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <Button
             android:id="@+id/cancelHolidayButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
