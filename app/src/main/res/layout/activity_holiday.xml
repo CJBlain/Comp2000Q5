@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Employee Details Section -->
+        <TextView
+            android:id="@+id/nameTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/nameAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="John Smith"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Days Remaining Section -->
+        <TextView
+            android:id="@+id/daysRemainingTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Days Remaining to Take Off:"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/daysRemainingAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5 days"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Next Holidays Section -->
+        <TextView
+            android:id="@+id/nextHolidayTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next Holidays:"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/nextHolidayAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Dec 25, 2024 - 2 days off\n2. Jan 1, 2025 - 1 day off\n3. April 15, 2025 - 3 days off"
+            android:textSize="16sp"
+            android:layout_marginBottom="32dp" />
+
+        <!-- Cancel Holiday Button -->
+        <Button
+            android:id="@+id/cancelHolidayButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel Holiday"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Additional Information Text -->
+        <TextView
+            android:id="@+id/infoText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="If you think there has been a mistake, please seek out your HR manager or admin team. Thank you."
+            android:textSize="14sp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:padding="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="5dp"
+            android:layout_marginTop="130dp">
+
+            <ImageView
+                android:id="@+id/backArrow"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@android:drawable/ic_media_previous"
+                android:contentDescription="Back Arrow" />
+
+            <TextView
+                android:id="@+id/backText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:textSize="17sp"
+                android:gravity="center" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
