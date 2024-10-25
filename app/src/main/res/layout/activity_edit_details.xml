@@ -14,7 +14,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:columnCount="1"
-            android:rowCount="4"
+            android:rowCount="3"
             android:padding="70dp"
             android:alignmentMode="alignMargins"
             android:layout_gravity="top|center_horizontal">
@@ -27,8 +27,7 @@
                 android:layout_columnWeight="1"
                 android:text="JOHN SMITH"
                 android:textSize="11sp"
-                android:layout_marginBottom="100dp"/>
-
+                android:layout_marginBottom="50dp"/>
 
 
             <Button
@@ -37,7 +36,21 @@
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
                 android:text="JSMTH@GMAIL.COM"
+                android:textSize="11sp"
+                android:layout_marginBottom="240dp"/>
+
+
+
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="Save"
                 android:textSize="11sp"/>
+
+
 
 
 
@@ -51,7 +64,7 @@
             android:orientation="vertical"
             android:gravity="center"
             android:padding="5dp"
-            android:layout_marginTop="120dp">
+            android:layout_marginTop="10dp">
 
             <ImageView
                 android:id="@+id/backArrow"
